@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+}
+p, h2 {
+    margin: 0;
+}
+.ecom-card {
+    width: 300px;
+    height: 350px;
+    background-color: white;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    border-radius: 14px;
+}
+.ecom-card .card-img {
+    display: flex;
+    justify-content: center;
+}
+.ecom-card .card-img img {
+    max-width: 100%;
+    transition: 0.5s;
+    position: relative;
+    z-index: 1;
+}
+.ecom-card .card-content {
+    text-align: center;
+    position: relative;
+    top: -30px;
+}
+.ecom-card .card-content button {
+    margin-top: 10px;
+    border: none;
+    background: coral;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+}
+.ecom-card:hover .card-img img {
+    max-width: 80%;
+}
+.ecom-card::before {
+    content: '';
+    position: absolute;
+    background-color: coral;
+    height: 100%;
+    top: -40%;
+    width: 100%;
+    transform: skewY(340deg);
+    transition: 0.5s;
+}
+.ecom-card:hover:before {
+    top: -50%;
+    transform: skewY(390deg);
+}
+.ecom-card .card-content p {
+    font-size: 25px;
+}
+.ecom-card .card-content h2 {
+    font-size: 30px;
+}

@@ -1,0 +1,49 @@
+.navbar-fixed {
+  position: fixed;
+  top: -3em;
+}
+
+/*----------------------
+  $NAVBAR
+    basic navbar styling
+  ----------------------*/
+nav {
+  width: 100%;
+  color: #bbb;
+  background: #2e2e2e;
+  font-weight: bold;
+  letter-spacing: 0.025em;
+}
+
+nav ul {
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 0 3em;
+  line-height: 3em;
+}
+
+nav ul li:hover {
+  background: #00939C;
+}
+
+/*----------------------
+  $BODY
+  ----------------------*/
+body {
+  background: coral;
+}
+
+/*----------------------
+  $MISC
+  ----------------------*/
+.filler {
+  width: 1px;
+  height: 200px;
+}
+
+.two {
+  height: 3000px;
+}
