@@ -1,7 +1,7 @@
-.navbar-fixed {
+/* .navbar-fixed {
     position: fixed;
     top: -3em;
-}
+} */
 
 
 /*----------------------
@@ -10,20 +10,21 @@
     ----------------------*/
 
 nav {
-    width: 100%;
-    color: #bbb;
-    background: #2e2e2e;
-    font-weight: bold;
+    width:100%;
+    color: rgb(255, 252, 252);
+    background: #000000;
+    font-weight: 50px;
     letter-spacing: 0.025em;
+    border-radius: 10px;
 }
 
 nav ul {
-    margin: 0;
+    margin: 10px;
 }
 
 nav ul li a {
     color: white;
-    text-decoration: none;
+    text-decoration:dotted;
 }
 
 nav ul li {
@@ -33,7 +34,7 @@ nav ul li {
 }
 
 nav ul li:hover {
-    background: #00939C;
+    background:grey;
 }
 
 
@@ -42,7 +43,7 @@ nav ul li:hover {
     ----------------------*/
 
 body {
-    background: coral;
+    background:whitesmoke;
 }
 
 
@@ -56,11 +57,12 @@ body {
 }
 
 .two {
-    height: 3000px;
+    height: fit-content;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .two{
     width: 100%;
-    display: flex;
-    text-align: center;
-    justify-content: center;
+    display:flexbox;
+    text-align: center; 
+     justify-content: center; 
 }
