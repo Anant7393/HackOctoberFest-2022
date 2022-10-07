@@ -43,6 +43,7 @@ body {
   line-height: 1.5;
   color: var(--color-black);
   background: var(--color-light);
+  background-color: #001632;
 }
 
 a,
@@ -74,6 +75,7 @@ img {
   width: 100%;
   padding: 0 2rem;
   margin: 0 auto;
+  
 }
 
 .ion-logo-apple {
@@ -104,17 +106,17 @@ img {
 .text-large {
   font-size: 2rem;
   font-weight: 600;
-  color: var(--color-black);
+  color: var(--color-white);
 }
 .text-normal {
   font-size: 1rem;
   font-weight: 400;
-  color: var(--color-black);
+  color: var(--color-white);
 }
 .text-links {
   font-size: 1rem;
   font-weight: 400;
-  color: var(--color-blue);
+  color: var(--color-white);
 }
 .text-links:hover {
   text-decoration: underline;
@@ -129,8 +131,9 @@ img {
   outline: none;
   border-radius: 0.25rem;
   color: var(--color-black);
-  background: var(--color-white);
+ 
   box-shadow: var(--shadow-large);
+  background-color: #090b0e;
 }
 .main .wrapper .form {
   width: 100%;
@@ -154,8 +157,8 @@ img {
   border: none;
   outline: none;
   border-radius: 2rem;
-  color: var(--color-black);
-  background: var(--color-light);
+  color: var(--color-white);
+  background: var(--color-black);
   text-transform: unset;
   text-rendering: optimizeLegibility;
 }
@@ -197,7 +200,7 @@ img {
   font-size: 1rem;
   font-weight: 500;
   line-height: inherit;
-  color: var(--color-black);
+  color: var(--color-white);
   margin: 0 1rem;
 }
 .main .wrapper .method-control {
@@ -217,12 +220,18 @@ img {
   outline: none;
   border: 2px solid var(--color-grayish);
   border-radius: 2rem;
-  color: var(--color-black);
-  background: var(--color-white);
+  color: var(--color-white);
+  background: var(--color-black);
   text-transform: capitalize;
   text-rendering: optimizeLegibility;
   transition: all 0.35s ease;
 }
 .main .wrapper .method-action:hover {
-  background: var(--color-light);
+  background: var(--color-night);
+}
+.main{
+  background-color: #001632;
+}
+.ion {
+  color: var(--color-blue);
 }
