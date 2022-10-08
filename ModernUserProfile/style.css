@@ -1,6 +1,7 @@
-@import url("https://fonts.googleapis.com/css?family=Ubuntu:300, 400, 500, 700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Dancing+Script&family=Great+Vibes&family=Poppins:wght@100&family=Shadows+Into+Light&display=swap');
+
 body {
-color: rgb(200, 200, 200);
+  background: rgb(40, 38, 38);
 }
 
 .profile-card {
@@ -58,7 +59,10 @@ color: rgb(200, 200, 200);
 }
 .profile-card .above-fold .name {
   font-size: 2rem;
-  font-weight: 500;
+  font-weight: 1000;
+  
+  font-family: 'Dancing Script', cursive;
+
   margin-bottom: 0.4rem;
 }
 .profile-card .above-fold .role {
