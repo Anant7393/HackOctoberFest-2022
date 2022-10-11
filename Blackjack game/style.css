@@ -1,0 +1,88 @@
+.btn {
+    cursor: pointer;
+    padding: 10px;
+    border: 2px groove black;
+    border-radius: 5px;
+    font-weight: bold;
+
+  }
+
+  .btn-primary {
+    background-color: rgb(116, 234, 234);
+  }
+
+  .btn-danger {
+    background-color: red;
+  }
+
+  .btn-success {
+    background-color: rgb(75, 226, 75);
+  }
+
+  .btn-warning {
+    background-color: rgb(232, 235, 49);
+  }
+  .container-5 {
+    width: 75%;
+    margin: 0px auto;
+    text-align: center;
+    border: 1px solid black;
+  }
+
+  table,
+  th,
+  td {
+    padding: 5px;
+    border: 1px solid black;
+  }
+
+  .blackjackrow-1::before {
+    background: url('https://images.unsplash.com/photo-1561016444-14f747499547?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Z3JlZW4lMjBjb2xvcnxlbnwwfHwwfHw%3D&w=1000&q=80') no-repeat center/cover;
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0.46;
+  }
+
+  .blackjackrow-2 {
+    background: url('https://images.unsplash.com/photo-1561016444-14f747499547?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Z3JlZW4lMjBjb2xvcnxlbnwwfHwwfHw%3D&w=1000&q=80') no-repeat center/cover;
+
+
+  }
+
+  .blackjackrow2 div {
+    border: 1px solid black;
+    padding: 10px;
+  }
+
+  .blackjackrow-1 {
+    position: relative;
+  }
+
+  .blackjackrow-1 div {
+    border: 1px solid black;
+    padding: 10px;
+    justify-content: center;
+    /* height:355px; */
+    /* since it is the flex-items which is present inside the balckjackrow-1 */
+    flex: 1;
+  }
+
+  
+  #btn-box,
+  .blackjackrow-1,
+  .blackjackrow-2,
+  .blackjackrow-3 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+    border: 2px solid black;
+  }
+
+  #btn-box label {
+    font-weight: bold;
+  }
