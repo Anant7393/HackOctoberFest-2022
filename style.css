@@ -1,48 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Dancing+Script&family=Great+Vibes&family=Poppins:wght@100&family=Shadows+Into+Light&display=swap');
-*{
-    margin: 0;
-    padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&family=Dancing+Script&family=Great+Vibes&family=Poppins:wght@100&family=Shadows+Into+Light&display=swap");
+* {
+  margin: 0;
+  padding: 0;
 }
 
-
 body {
-    background: linear-gradient(#0F2027, #203A43, #2C5364);
-    color: white;
-    height: 100vh;
-
+  background: linear-gradient(#0f2027, #203a43, #2c5364);
+  color: white;
+  height: 100vh;
 }
 
 /* Navbar styling */
 
 #navbar-fixed {
-    position: fixed;
+  position: fixed;
 }
 
 nav {
-    width: 100%;
-    color: #bbb;
-    background: rgba(0,0,0,0.4);
-    font-weight: bold;
-    letter-spacing: 0.025em;
+  width: 100%;
+  color: #bbb;
+  background: rgba(0, 0, 0, 0.4);
+  font-weight: bold;
+  letter-spacing: 0.025em;
 }
 
 nav ul {
-    margin: 0;
+  margin: 0;
 }
 
 nav ul li a {
-    color: white;
-    font-size: 20px;
-    font-family: 'Poppins', sans-serif;
-    text-decoration: none;
-    padding: 2px 7px;
-    border-radius: 3px;
+  color: white;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  padding: 2px 7px;
+  border-radius: 3px;
 }
 
 nav ul li {
-    display: inline-block;
-    padding: 0 3em;
-    line-height: 3em;
+  display: inline-block;
+  padding: 0 3em;
+  line-height: 3em;
 }
 
 nav ul li a:hover {
@@ -52,32 +50,27 @@ nav ul li a:hover {
 
 /* section content styling */
 
-.content{
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    height: 80vh;
-    text-align: center;
-    font-size: 17px;
-    margin: 0px 30px;
-    
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  text-align: center;
+  font-size: 17px;
+  margin: 0px 30px;
 }
 
 /* footer styling */
 
-footer{
-    padding: 9px;
-    background-color: #0F2027;
-    font-family: 'Poppins', sans-serif;;
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 9px;
+  background-color: #0f2027;
+  font-family: "Poppins", sans-serif;
 }
-
-
-
-
-
-
-
-
 
 /*----------------------
     $MISC
