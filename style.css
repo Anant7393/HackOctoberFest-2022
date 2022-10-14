@@ -67,11 +67,27 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
+  text-align: center;
   padding: 9px;
   background-color: #0f2027;
   font-family: "Poppins", sans-serif;
 }
 
+.footer-content-center {
+ width: 100vw;
+ text-align: center;
+}
+
+.icon-style {
+  height:40px;
+  margin-left:5px;
+  margin-top:5px;
+}
+
+.icon-style:hover {
+  background-color:yellow;
+  padding:5px;
+}
 /*----------------------
     $MISC
     ----------------------*/
