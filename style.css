@@ -74,19 +74,39 @@ footer {
 }
 
 .footer-content-center {
- width: 100vw;
- text-align: center;
+  width: 100vw;
+  text-align: center;
+}
+
+.HF2022 {
+  font-weight: 900;
 }
 
 .icon-style {
-  height:40px;
-  margin-left:5px;
-  margin-top:5px;
+  height: 40px;
+  margin-left: 5px;
+  margin-top: 5px;
 }
 
+.icon-1 {
+  height: 45px;
+  width: 45px;
+}
+.icon-2 {
+  height: 43px;
+  width: 43px;
+  margin-right: 4px;
+}
 .icon-style:hover {
-  background-color:rgb(13, 240, 89);
-  padding:5px;
+  background-color: rgb(38, 170, 86);
+  padding: 5px;
+  border-radius: 50%;
+}
+.icon-3:hover {
+  padding: 7px;
+}
+.icon-style {
+  text-decoration: none;
 }
 /*----------------------
     $MISC
