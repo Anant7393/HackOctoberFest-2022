@@ -20,7 +20,7 @@ nav {
   width: 100%;
   color: #bbb;
   background: rgba(0, 0, 0, 0.4);
-  font-weight: bold;
+  font-weight: bolder;
   letter-spacing: 0.025em;
 }
 
@@ -44,8 +44,8 @@ nav ul li {
 }
 
 nav ul li a:hover {
-  background: #bbb;
-  color: black;
+  background: rgba(132, 186, 7, 0.283);
+  color: rgb(226, 92, 97);
 }
 
 /* section content styling */
@@ -79,7 +79,7 @@ footer {
 }
 
 .HF2022 {
-  font-weight: 900;
+  font-weight: bold;
 }
 
 .icon-style {
